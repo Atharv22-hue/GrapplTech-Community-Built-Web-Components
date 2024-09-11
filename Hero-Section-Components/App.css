@@ -1,0 +1,191 @@
+.header {
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  padding: 20px;
+  background-color: #ffffff;
+  
+}
+.heading{
+  font-family: serif;
+  font-size: 80px;
+  text-align: center;
+  color: green;
+}
+.headingStyle{
+ color:yellow;
+ font-family: cursive;
+    font-size: 90px;
+text-align: center;
+padding-top: 30px;
+}
+
+
+
+.navbar-list .logo {
+  max-width: 5px; /* Adjust the size */
+  height: 5px; /* Keep aspect ratio */
+  margin-right: 2px; /* Space between logo and title */
+
+ 
+}
+
+
+
+/* In your CSS file (e.g., App.css) */
+.background {
+  background-image:url("C:\Users\91913\Desktop\PROJECTS\grappitech\GrapplTech-Community-Built-Web-Components\Hero-Section-Components\atharv-herosection\atharv\src\school-kids-with-white-background-high-quality-ultr_889056-9144.avif");
+  background-size: cover; /* or 'contain' */
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 120vh; /* or any height you want */
+  width: 100%;
+}
+
+.content {
+  color: #fff;
+  text-align: center;
+  padding-top: 20%;
+}
+
+/* src/components/Navbar.css */
+.navbar {
+  background-color: white;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-item {
+  margin: 0;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding: 10px 20px;
+  transition: color 0.3s ease;
+}
+
+.navbar-link:hover {
+  color: blue;
+  background-color: rgba(0, 0, 255, 0.1); /* Optional: Adds a subtle background color on hover */
+  border-radius: 5px;
+}
+
+/* src/components/Logo.css */
+.logo-container {
+  text-align: center;
+  margin-top: 20px; /* Adjust the top margin as needed */
+}
+
+.logo {
+  width: 150px; /* Adjust the width as needed */
+  height: auto;
+}
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-content p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.button-group {
+  
+  display: flex;
+  justify-content: center; /* Center buttons horizontally */
+  gap: 20px; 
+}
+
+.button-group .btn1 {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 20px 20px 20px 20px;
+  margin-right: 5px;
+  background-color: white;
+  cursor: pointer;
+color: blue;
+  transition: background-color 0.3s;
+  font-size: 34px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.button-group .btn2 {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 2px 20px 20px 20px;
+  margin-right: 5px;
+  background-color: yellow;
+  cursor: pointer;
+color: black;
+  transition: background-color 0.3s;
+  font-size: 34px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.button-group .btn1:hover {
+  background-color:red;
+
+}
+.button-group .btn2:hover {
+  background-color:red;
+}
+
+@media  only screen and ( min-width:425px){
+ .heading{
+  font-size: 100px;
+  text-align: center;
+  font-family: serif;
+ } 
+ .headingStyle{
+  font-size: 80px;
+  font-family: cursive;
+ text-align: center;
+
+ }
+ .background{
+  height: 900px;
+  background-image:url("C:\Users\91913\Desktop\PROJECTS\grappitech\GrapplTech-Community-Built-Web-Components\Hero-Section-Components\atharv-herosection\atharv\src\school-kids-with-white-background-high-quality-ultr_889056-9144.avif");
+  background-size: cover; /* or 'contain' */
+  align-items: center;
+   /* or any height you want */
+  width: 100%;
+ }
+ .button-group{
+  gap: 4px;
+ }
+ .button-group .btn1{
+  height: 100px ;
+  width: 200px;
+  font-size: 25px;
+  padding: 4px 4px 4px 4px;
+ }
+.button-group .btn2{
+  height: 100px;
+  width: 200px;
+  font-size: 25px;
+  padding: 4px 4px 4px 3px;
+ }
+
+.navbar-item .logo{
+  height: 5px;
+  width: 4px;
+}
+
+}
